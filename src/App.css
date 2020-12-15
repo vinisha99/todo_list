@@ -1,3 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 .App {
   text-align: center;
 }
+.top-bg{
+  z-index: 0;
+  position: relative;
+
+}
+.bg-image{
+  width: 100%;
+  height: 30%;
+}
+.card{
+  z-index: 2;
+  position: absolute;
+  width: 540px;
+  height: 610px;
+  margin-left: 33%;
+  top: 10%;
+}
+.section-1{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+h1{
+  letter-spacing: 10px;
+  color: white;
+  font-size: 40px;
+}
+.section-2{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: hsl(235, 24%, 19%);
+  height: 60px;
+  border-radius: 3%;
+  width: 100%;
+}
+input[type=text]{
+  background: hsl(235, 24%, 19%);
+  margin-left: 8px;
+  border: 0px;
+  caret-color: hsl(235, 46%, 51%);
+  padding-left: 10px;
+  font-size: larger;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsl(234, 44%, 92%);
+  outline: none;
+}
+input[type=radio] {
+  width: 1.7em;
+  height: 1.7em;
+  margin-left: 15px;
+  /* margin-top: 13px; */
+}
+.section-3{
+  margin-top: 15px ;
+  display: flex;
+  justify-content: flex-start;
+  background: hsl(235, 24%, 19%);
+  height: fit-content;
+  border-radius: 3%;
+  width: 100%;
+}
+table{
+  width: 100%;
+  background: hsl(235, 24%, 19%);
+  border-radius: 3px;
+}
+.table-row-data{
+  display: flex;
+  justify-content: flex-start;
+  height: 60px;
+  align-items: center;
+    border-bottom: thin solid rgb(85, 85, 85);
+  
+}
+.list-items{
+  padding-left: 15px;
+  font-size: larger;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsl(237, 15%, 73%);
+}
+.table-last-row{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-self: baseline;
+  justify-content: space-between;
+  height: 45px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 10px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.bottom-text{
+  color: hsl(233, 14%, 35%);
+  font-size: 15px;
+}
+
+.bottom-center-text{
+  color: hsl(233, 14%, 35%);
+  font-size: 16.5px;
+}
+.bottom-center-text-All{
+  color: hsl(233, 60%, 51%);
+}
+
+
+
+
+
